@@ -1,0 +1,77 @@
+body {
+
+    width: 100vw;
+    height: 90vh;
+    background: rgb(61, 132, 177);
+
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 4em;
+    border-bottom: 1px solid black;
+
+}
+
+article {
+
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+article a {
+
+    font-size: 3em;
+    font-weight: bold;
+    margin: 1em;
+    color: black;
+    text-decoration: none;
+
+}
+
+.links1, .projecten {
+
+    border-bottom: 5px solid rgb(30, 29, 29);
+
+}
+
+.links {
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin-top: 2em;
+    gap: 100px;
+
+}
+
+.links a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.links1, .projecten {
+
+    border-bottom: 5px solid rgb(30, 29, 29);
+
+}
+
+.links a:hover {
+
+    transform: scale(1.2);
+    background-color: rgba(22, 22, 22, 0.153);
+    border-radius: 20px;
+    padding: 7px;
+    transition: ease 0.1s;
+
+
+}
+
+

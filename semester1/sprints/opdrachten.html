@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Sprint 1</h1>
+
+    <article>
+        <a class="links" href="links.html">Links</a>
+        <a class="projecten" href="projecten.html">Projecten</a>
+    </article>
+    
+    <section>
+        <div class="dagen">Opdracht stylesheet</div>
+        <p class="maintekst">Opdracht 1: Element selector
+            Maak een h2 element aan in het HTML file en geef het een bijhorende class uit de gezamenlijke stijlesheet. Maak nog een h2 element aan zonder class. Nu staat er zoiets in het HTML file:
+            <br><br>
+            h2 class="heading-medium">Ik ben een heading, welke kleur krijg ik?
+            <br>
+            Ik ben ook een heading, welke kleur krijg ik?
+            <br><br>
+            Maak nu een element selector in specificity.css met een andere kleur dan in de huisstijl staat.
+            <br>
+            h2 {
+                color: purple;
+            }
+            Wordt de heading nu paars? Of wordt de huisstijl uitgevoerd? Kan je bedenken waarom dit gebeurt?<br>
+            
+        </p> 
+            
+        <p class="dailycheckouts">
+            Antwoord: <strong>De eerste heading word de huisstijlen de tweede krijgt de purple stijl. Ik denk dat dit gebeurd omdat je specifiek tegen die class hebt gezegd dat die de huisstijl moet krijgen en tegen alle h2s gezegd dat ze paars moeten worden. Maar hij pakt de meest specifieke op die class daarom word het in de huisstijl gedaan.</strong>
+        </p>
+    </section>
+
+    <section>
+        <div class="dagen">Opdracht stylesheet 2</div>
+        <p class="maintekst">Opdracht 2: Class selector
+            Voeg nog een h2 element toe met een class uit de gezamenlijke stijlesheet en voeg een tweede class toe.<br>
+            <br>
+            h2 class="heading-medium green">Ik ben een heading met twee classes
+            <br><br>
+            Maak een class aan met dezelfde naam in specificity.css met een andere kleur.<br>
+            .green {
+                color: green;
+            }
+            <br><br>
+            Welke kleur krijgt de heading met twee classes? Krijgt het de kleur van de huisstijl of wordt de andere class uitgevoerd? Waarom krijgt de heading die kleur?<br>
+            
+        </p> 
+            
+        <p class="dailycheckouts">
+            Antwoord: <strong>Hij krijgt de groene kleur omdat hij de classnaam heeft gespecificeerd met green erachter te zetten. Dat is op dat moment dan nog specifieker dan de classname die er als staat met de huisstijl</strong>
+        </p>
+    </section>
+
+    <section>
+        <div class="dagen">Opdracht stylesheet 3</div>
+        <p class="maintekst">Opdracht 3: Class volgorde
+            Voeg nu aan specificity.css een class toe met dezelfde naam als al in de gezamenlijke stylesheet staat. Geef de class een andere kleur. Dat ziet er dan zo uit:<br>
+            <br>
+            .heading-medium {
+                color: pink;
+            }
+            <br><br>
+            Welke kleur hebben de headings nu? Probeer te beschrijving waarom de heading die kleur heeft?
+        </p> 
+            
+        <p class="dailycheckouts">
+            Antwoord: <strong>Hij krijgt de pink color omdat ?? geen idee eigenlijk</strong>
+        </p>
+    </section>
+
+    <section>
+        <div class="dagen">Opdracht stylesheet 4</div>
+        <p class="maintekst">Opdracht 4: ID selector
+            Voeg nog een h2 element toe. Geef het de class uit de gezamenlijke stijlesheet en voeg een ID toe
+            <br><br>
+            h2 class="heading-medium test" id="heading">Ik ben een heading met een ID<br><br>
+            Maak een id selector in specificity.css met een andere kleur.
+            <br>
+            #heading {
+                color: yellow;
+            }
+            <br><br>
+            Welke kleur krijgt de heading? De kleur van de id-selector of 'wint' de class uit de gezamenlijke stylesheet? Waarom is dat?
+            
+        <p class="dailycheckouts">
+            Antwoord: <strong>Hij word geel, omdat het ID eerder in het rijtje staat van belangrijkheid</strong>
+        </p>
+    </section>
+
+    <section>
+        <div class="dagen">Opdracht Typografie</div>
+        <p class="maintekst">Opdracht 1:
+            Open je code editor en maak een blanco HTML pagina font.html en sla deze op in de repo van je leertaak. Maak een leeg CSS file font.css en voeg het toe aan het HTML file.
+            </p>
+        <p>Gebruik verschillende CSS units om ervoor te zorgen dat de regellengte van een zin op 10-12 woorden komt:<br>
+            <br>
+            - Behalve pixels zijn de Absolute length units niet geschikt voor het web, lukt het je toch om met cm of mm een regel van zo'n 10a12 woorden te maken? Hoeveel px is dat?<br>
+            - Gebruik daarna de Font-relative length units. Hoeveel em heb je nodig voor een goede regellengte? En in ch dan? Wat is het verschil als je rem gebruikt? wat gebeurt er als je dezelfde tekst met een ander font gebruikt?<br>
+            - Experimenteer tot slot met Viewport relative units en Container units, zoals vw en cqw. En wat doen dvw of vmax?<br> </p>
+        <p class="dailycheckouts">
+            Antwoord: <strong>Ik heb ermee getest en kwam er achter dat 100mm en 10cm ongeveer perfect is. Dat is zon 377px <br>
+            - In EM is dat ongeveer 23/24 en in CH is dat ongeveer 50. Als je rem gebruikt is het dan 25rem. Dus nu is er geen verschil omdat er nog geen font-size is gebruikt in de body.<br>
+            - Als je vw gebruikt is het ongeveer 27vw en als je cqw gebruikt is het ongeveer 25cqw. Als je dvw gebruikt is het ongeveer 25dvw en als je vmax gebruikt is het ongeveer 25vmax.<br>
+            - het zit dus allemaal best wel in de buurt van elkaar omdat het relative sizes zijn. </strong>
+            </strong>
+        </p>
+    </section>
+
+    
+</body>
+</html>
